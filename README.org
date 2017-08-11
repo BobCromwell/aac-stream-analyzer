@@ -1,7 +1,10 @@
-#+TITLE: README
+#+TITLE: aac-stream-analyzer
 
-工作中遇到一个问题，需要分析一个 aac 文件，又一次搜到了@雷霄骅 的文章：[[http://blog.csdn.net/leixiaohua1020/article/details/18155549][AAC 格式分析器]]
-但是雷神开源的是 MFC 的代码，我大部分时间都用 Mac，所以顺便改了下。分享出来希望能帮助到
-同样需求的人。
+工作中遇到一个问题，需要分析一个 aac 文件，又一次搜到了 @雷霄骅 的文章：[[http://blog.csdn.net/leixiaohua1020/article/details/18155549][AAC 格式分析器]]
+但是雷神开源的是 MFC 的代码，我大部分时间都用 Mac，所以需要改下。分享出来希望能帮助到同样需求的人。
+
+雷神的代码重要也是使用了[[http://www.audiocoding.com/faad2.html][faad]] 。命令行简单查看 aac 文件内容，可以 =brew install faad2=
+
+我主要改动是把代码改为 =CMake= 编译，并支持命令行下输出更详细内容
 
 再次感谢 @雷霄骅，雷神，一路走好。

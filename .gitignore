@@ -1,0 +1,9 @@
+GTAGS
+GPATH
+GRTAGS
+CMakeCache.txt
+Makefile
+*.aac
+cmake_install.cmake
+CMakeFiles/
+aac-stream-analyzer
